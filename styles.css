@@ -267,3 +267,13 @@ body {
     position: absolute;
     margin-top: -58px;
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .arm.left {
+        animation: none;
+    }
+
+    .penguin {
+        transition: none;
+    }
+}
